@@ -1,0 +1,18 @@
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func hello() {
+
+	fmt.Println("Hello Go-Thread")
+}
+
+func main()  {
+
+	go hello()
+	time.Sleep(time.Second)
+	
+}
