@@ -1,3 +1,5 @@
+package main
+
 /* 
   => Errorgroup is professional way to run multiple go routine  + collect errors + cancell everything on first failure
 
@@ -9,7 +11,8 @@
 	4. cancel the first rest automatically
 */
 
-package main
+/*
+
 
 import (
 	"fmt"
@@ -51,3 +54,5 @@ func main(){
 
 	fmt.Println("All Task finished")
 }
+
+*/
