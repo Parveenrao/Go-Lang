@@ -4,12 +4,16 @@
 
 package main 
 
-import "fmt"
+
 
 
 // Bad Example 
 
+
 /*
+
+import "fmt"
+
    type MySQLDB struct{}
 
 func (m MySQLDB) Save(data string) {
@@ -28,7 +32,7 @@ func (o OrderService) CreateOrder() {
 tommorrof if you have postgress u have to change orderservice
 
 
-*/
+
 
 
 // GOOD Example 
@@ -73,3 +77,5 @@ func (o OrderService) CreateOrder() {
 
 	o.db.Save("order")
 }
+
+*/

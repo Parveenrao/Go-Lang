@@ -3,6 +3,10 @@
 // You shoudl be able to add new features
 // Without modifying existing working code
 
+
+package main
+
+
 /*
    => Bad Design
 
@@ -18,9 +22,7 @@ func (n NotificationService) Send(method string, message string) {
 }
 
 
-*/
 
-package main
 
 import (
 	"fmt"
@@ -69,3 +71,6 @@ func main() {
 
 	service.Notify("Welcome User")
 }
+
+
+*/
